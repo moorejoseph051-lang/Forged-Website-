@@ -28,8 +28,7 @@ export default function Home() {
     <div className="min-h-screen bg-black text-white">
       {/* HERO */}
       <section className="relative overflow-hidden border-b border-white/10">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(255,0,0,0.16),transparent_30%),radial-gradient(circle_at_bottom_right,rgba(255,255,255,0.05),transparent_30%)]" />
-
+<div className="absolute inset-0 bg-gradient-to-br from-red-500/10 to-transparent" />
         <div className="relative mx-auto max-w-7xl px-6 py-8">
           <header className="flex items-center justify-between">
             <div className="text-2xl font-black uppercase tracking-[0.25em]">
